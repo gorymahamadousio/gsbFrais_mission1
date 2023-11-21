@@ -1,0 +1,23 @@
+.acceuil{
+    background-image: url('image/fond1.jpg');
+}
+
+
+.btnNav :hover{
+    color:black;
+}
+
+.container{
+    height: 100vh;
+    scroll-snap-type:y mandatory;
+}
+
+section{
+    font-size: 30px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    border-bottom: 5px solid #333;
+    height: 100vh;
+    scroll-snap-align: center;
+}
